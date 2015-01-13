@@ -2,4 +2,13 @@
 	A hidden .git file is created containing metadata.  This will be used to track data relating to the files within your repository and their version information.
 2) How is the staging area different from the working directory and the repository? What value do you think it offers?
 	The staging area does not actually save anything so you can pick and choose what files out of a working directory/repository you want to be part of a commit instead of automatically making all files part of the commit.  This provides more control over what goes into each commit.
-3) 
+3) How can yo use the staging area to make sure you have one commit per logical change?
+	You can use git diff to compare the staging area to both the commit1 and the working directory to ensure what changes you are about to commit.
+4) What are some situations when branches would be helpful in keeping your history organized?  How would branches help?
+	If I have working production code and want to develop a new feature that will take time to write and test, a new branch would enable the production code to remain unaffected and updated as necessary unrelated to the test code.
+5) How do the diagrams help you visualize the branch structure?
+	They help to actually see how git is handling commits and branches and the relationship between them.
+6) What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	It causes the new branch to have the commit history of both branches and makes 1 of the branches no longer necessary.  It shows the relationship of the new branch to the new tip and all the previous commits in the involved branches.
+7) What are the pros and cons of Git's automatic merging vs always doing merges manually?
+	The pro is you dont have to do it manually, which could be very tedious, time consuming, and leaves you open for human error.  The con is git doesnt know the content or the intent, just if something has changed or not, so automerging has the potential to adjust code in a way not intended.
