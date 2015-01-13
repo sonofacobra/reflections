@@ -1,0 +1,14 @@
+1) How did viewing a dif between two version help you spot the bug?
+	Seeing the same data from 2 files side by side makes it very easy to spot the differences (changes, typos, etc).
+2) How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+	You do not have to worry about changes causing problems with existing code and having to figure out what changed, what it was before, etc manually by memory.  As such investigating and troubleshooting becomes much more effecient with version history.
+3) What do you think are the pros and cons of manually choosing when to create a commit, like you do in GIT, vs having versions automaticaly saved, lik Google docs does?
+	The con is simply that human error is a factor.  You can get distracted and forgot to create a commit and as a result potentially lose your work.  The pro is the flexibility to only create commits when it logically makes sense, ensure versions are functional, etc.
+4) Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others like Google Docs, treat each file separately?
+	Git was designed with code in mind and since you may edit multiple files when adding/removing/changing related code it makes sense to track all the related files together.  Google Docs appears to be more as a file respository in which changes are typically isolated to the document in question only.
+5) How can you use the commands git log and git diff to view the history of files?
+	Git log provides a quick view of all the past commits from more recent to oldest along with who made the change, when, and notes related to the change.  This would be handy if you need to figure out when a specific bug was introduced into the code.  Git diff provides the ability to view 2 versions to directly compare what was changed between them, which is extremely useful when a new version has introduce an unexpected error.
+6) How might using version control make you more confident to make changes that could break something?
+	It takes away the fear of permanently breaking a program as it is extremely easy to backout to a previous working version.
+7) Now that you have your workspace set up, what do you want to try using Git for?
+	Nanodegree projects!!!
