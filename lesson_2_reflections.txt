@@ -1,0 +1,5 @@
+1) What happens when you initialize a repository? Why do you need to do it?
+	A hidden .git file is created containing metadata.  This will be used to track data relating to the files within your repository and their version information.
+2) How is the staging area different from the working directory and the repository? What value do you think it offers?
+	The staging area does not actually save anything so you can pick and choose what files out of a working directory/repository you want to be part of a commit instead of automatically making all files part of the commit.  This provides more control over what goes into each commit.
+3) 
