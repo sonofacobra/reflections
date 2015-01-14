@@ -1,3 +1,12 @@
 1) When would you want to use a remote repository rather than keeping all your work local?
     If I am traveling and want to update something within the repository or if I am collaborating on a repository with others are 2 examples.
-  
+2) Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+	To avoid mass confusion of new files or edits to existing files occurring before you are ready and prepared within your local repository.
+3) Describe the differences between forks, clones, and branches. When would you use one instead of another?
+	Fork is making a clone of a GitHub repository and storing it as another GitHub repository for a new user.  A clone is making a copy of a GitHub repository onto your local machine.  A branch is the related commits for a label, which can be in either/both GitHub and your local machine repositories.  You use branches as you are doing code work (creating new features, debuggin, etc) to keep a clean production code environment.  You use cloning to take a GitHub repository so that you can make changes on your local machine and push back to GitHub as necessary.  You use forking to copy other's respositories so you can make your own changes unrelated to theirs, but ensure it links to the original source, etc.
+4) What is the benefit of having a copy of the last known state of the remote stored locally?
+	Once it is stored locally you can do all your work offline instead of having to be online at all times.
+5) How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+	It could be done via email, phone calls, instant chats, etc but it would become very easy to miss changes by relying on this manual communication with no real history.  Some companies offer proprietary software to retain version history, but this would require you to be on the same secure company network in most cases to access the data.
+6) When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+	For anything you are doing that is not yet ready for production (master) such as new features, updates/bug fixes, etc that need to be tested and reviewed before editing the master.
